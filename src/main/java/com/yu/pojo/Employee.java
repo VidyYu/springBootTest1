@@ -8,7 +8,6 @@ import java.util.Date;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 public class Employee {
     private Integer id;
     private String lastName;
@@ -17,4 +16,12 @@ public class Employee {
     private Date brith;
     private Deppartment deppartment;
 
+    public Employee(Integer id, String lastName, String email, Integer gender, Deppartment deppartment) {
+        this.id = id;
+        this.lastName = lastName;
+        this.email = email;
+        this.gender = gender;
+        this.brith = new Date();
+        this.deppartment = deppartment;
+    }
 }
