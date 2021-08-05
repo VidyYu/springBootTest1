@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b9b70d2-49fb-4e42-9b92-db19d4672316" name="Default Changelist" comment="">
+    <list default="true" id="2b9b70d2-49fb-4e42-9b92-db19d4672316" name="Default Changelist" comment="上传源文件">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yu/pojo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yu/pojo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +39,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -42,19 +62,11 @@
       </set>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1tLelONCr2xkxT40stnzi9MR6Ip" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -63,10 +75,16 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -74,8 +92,22 @@
       <recent name="E:\IDEA-Workspace\springboot-web\src\main\resources\static" />
       <recent name="E:\IDEA-Workspace\springboot-web\src\main\resources\templates" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEAWorkSpace\SpringBootWeb01\src\main\resources\templates\emp" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yu.SpringbootWebApplication" />
@@ -96,6 +128,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -111,6 +144,10 @@
       <workItem from="1623076705044" duration="496000" />
       <workItem from="1623077216289" duration="436000" />
       <workItem from="1624172681102" duration="10068000" />
+      <workItem from="1627462690878" duration="3753000" />
+      <workItem from="1627518565466" duration="1680000" />
+      <workItem from="1627520274828" duration="1760000" />
+      <workItem from="1628142938147" duration="10943000" />
     </task>
     <task id="LOCAL-00001" summary="上传源文件">
       <created>1624189059716</created>
@@ -123,7 +160,17 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -153,78 +200,21 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="上传源文件" />
     <option name="LAST_COMMIT_MESSAGE" value="上传源文件" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="1870" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1624193355694">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="1870" y="260" key="#com.intellij.ide.util.MemberChooser/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1624193355694" />
-    <state x="459" y="136" key="CommitChangelistDialog2" timestamp="1624189057560">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="459" y="136" key="CommitChangelistDialog2/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1624189057560" />
-    <state x="742" y="285" key="FileChooserDialogImpl" timestamp="1624190028236">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="742" y="285" key="FileChooserDialogImpl/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1624190028236" />
-    <state width="1332" height="303" key="GridCell.Tab.0.bottom" timestamp="1623077200663">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state width="1332" height="303" key="GridCell.Tab.0.bottom/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1623077200663" />
-    <state width="1332" height="303" key="GridCell.Tab.0.center" timestamp="1623077200663">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state width="1332" height="303" key="GridCell.Tab.0.center/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1623077200663" />
-    <state width="1332" height="303" key="GridCell.Tab.0.left" timestamp="1623077200663">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state width="1332" height="303" key="GridCell.Tab.0.left/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1623077200663" />
-    <state width="1332" height="303" key="GridCell.Tab.0.right" timestamp="1623077200663">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state width="1332" height="303" key="GridCell.Tab.0.right/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1623077200663" />
-    <state width="2694" height="303" key="GridCell.Tab.1.bottom" timestamp="1622556382873">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state width="2694" height="303" key="GridCell.Tab.1.bottom/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1622556382873" />
-    <state width="2694" height="303" key="GridCell.Tab.1.center" timestamp="1622556382873">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state width="2694" height="303" key="GridCell.Tab.1.center/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1622556382873" />
-    <state width="2694" height="303" key="GridCell.Tab.1.left" timestamp="1622556382873">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state width="2694" height="303" key="GridCell.Tab.1.left/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1622556382873" />
-    <state width="2694" height="303" key="GridCell.Tab.1.right" timestamp="1622556382873">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state width="2694" height="303" key="GridCell.Tab.1.right/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1622556382873" />
-    <state x="1595" y="211" key="Maven.ArtifactSearchDialog" timestamp="1623077127033">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="1595" y="211" key="Maven.ArtifactSearchDialog/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1623077127033" />
-    <state x="732" y="145" key="SettingsEditor" timestamp="1624191418846">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="732" y="145" key="SettingsEditor/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1624191418846" />
-    <state x="554" y="277" key="Vcs.Push.Dialog.v2" timestamp="1624199890526">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="554" y="277" key="Vcs.Push.Dialog.v2/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1624199890526" />
-    <state x="1864" y="370" key="search.everywhere.popup" timestamp="1622553053042">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="1864" y="370" key="search.everywhere.popup/-1080.-212.1080.1870/0.0.2752.1112@0.0.2752.1112" timestamp="1622553053042" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
